@@ -1,0 +1,71 @@
+\documentclass[12pt]{article}
+\usepackage{color}
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage{xfrac}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\newcommand{\rec}[1]{
+    \part*{#1}
+    \addcontentsline{toc}{part}{#1}
+}
+\newcommand{\pt}[1]{
+    \section*{#1}
+}
+\newcommand{\spt}[1]{
+    \subsection*{#1}
+}
+\newcommand{\sspt}[1]{
+    \subsubsection*{#1}
+}
+\newcommand{\temp}[1]{$\SI{#1}{\degree}$}
+\newcommand{\dims}[2]{$#1\times{}#2$}
+\hyphenpenalty=100000
+
+\begin{document}
+\tableofcontents
+\clearpage
+\rec{Creamy Apple Almond Crunch Bread}
+Bake time: $70-85$ minutes (\dims{8}{4} pan) or $65-75$ minutes (\dims{9}{5} pan) @ \temp{350}\\
+Servings: 12
+\pt{Ingredients}
+\spt{Filling}
+\begin{itemize}
+    \item 2 3-oz pkg. cream cheese
+    \item 2 tablespoons sugar
+    \item 1 egg
+    \item \sfrac{1}{2} cup chopped, peeled apple
+\end{itemize}
+\spt{Bread}
+\begin{itemize}
+    \item 1 pkg. Cranberry Orange quick bread mix
+    \item \sfrac{1}{2} cup chopped, peeled apple
+    \item \sfrac{3}{4} cup water
+    \item 3 tablespoons oil
+    \item 1 egg
+    \item 1 teaspoon almond extract
+\end{itemize}
+\spt{Topping}
+\begin{itemize}
+    \item \sfrac{1}{4} cup sliced almonds
+    \item Apple Jelly
+\end{itemize}
+\clearpage
+\pt{Steps}
+\begin{enumerate}
+    \item Heat oven to \temp{350}
+    \item Grease and flour \dims{8}{4} or \dims{9}{5} inch loaf pan
+    \item In small bowl, blend all filling ingredients except apple. Beat at medium speed until smooth
+    \item Stir in apple and set aside
+    \item In large bowl, combine all bread ingredients. Stir by hand until mix is moistened
+    \item Pour \sfrac{1}{2} of batter into prepared pan
+    \item Carefully spoon cream cheese filling over batter
+    \item Spoon remaining batter on top of filling
+    \item Sprinkle with almonds
+    \item Bake at \temp{350} for $70-85$ minutes for \dims{8}{4} pan or $65-75$ minutes for \dims{9}{5} pan or until toothpick inserted near center comes out clean
+    \item Cool 15 minutes, remove from pan
+    \item Cool completely
+    \item Brush with melted apple jelly
+    \item Store in refrigerator. Makes 12 servings.
+\end{enumerate}
+\end{document}
